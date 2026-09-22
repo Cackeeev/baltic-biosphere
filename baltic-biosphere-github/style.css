@@ -24,6 +24,7 @@
 .help-card .payment strong,.help-card .payment p{display:block}
 @media(max-width:720px){.help-options{grid-template-columns:1fr;gap:0}.help-card{display:block}.help-card .payment{display:block}.help-card .payment-qr{width:180px}}
 .header .phone{font-size:14px;line-height:1.25;white-space:normal;max-width:220px}
+.header .phone{color:var(--ink)}
 @media(max-width:1000px){.header .phone{font-size:12px;max-width:150px}}
 .header .phone{align-self:center;transform:translateY(-2px)}
 .qr-caption{grid-column:1;display:block;max-width:220px;margin-top:-14px;font-size:11px;line-height:1.35;color:#cbd1be}
