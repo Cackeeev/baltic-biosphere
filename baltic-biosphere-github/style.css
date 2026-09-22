@@ -23,6 +23,8 @@
 .help-card .payment-qr{display:block;width:100%;max-width:220px;height:auto;margin:0 0 22px}
 .help-card .payment strong,.help-card .payment p{display:block}
 @media(max-width:720px){.help-options{grid-template-columns:1fr;gap:0}.help-card{display:block}.help-card .payment{display:block}.help-card .payment-qr{width:180px}}
+.header .phone{font-size:14px;line-height:1.25;white-space:normal;max-width:220px}
+@media(max-width:1000px){.header .phone{font-size:12px;max-width:150px}}
 /* Payment details span the full row below the three help options. */
 .help-options>.payment{grid-column:1 / -1;display:grid;grid-template-columns:220px minmax(0,1fr);gap:34px;margin-top:0;padding:28px 0;border:0;border-top:1px solid #78958b;background:transparent;align-items:start}
 .help-options>.payment .payment-qr{width:220px;height:220px;margin:0}
