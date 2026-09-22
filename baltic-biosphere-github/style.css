@@ -7,3 +7,5 @@
 
 .help-card{border-top:1px solid #78958b;padding-top:23px;padding-bottom:28px}.help-card h3{font-size:26px;margin:21px 0 16px;letter-spacing:-.6px}.payment{margin-top:20px;padding:18px;border:1px solid #78958b;background:#11353233;font-size:12px;line-height:1.65}.payment strong{font-size:14px}.payment p{margin-top:10px}.payment a{text-decoration:underline}.qr-note{color:#cbd1be;font-style:italic}.qr-note small{font-size:11px}.help-card + .help-options{}
 @media(max-width:1000px){.header nav{gap:12px}.phone{display:none}}@media(max-width:720px){.header nav{display:none}.help-card h3{font-size:28px}.payment{font-size:13px}}
+
+.payment-qr{width:180px;height:180px;object-fit:contain;background:#fff;margin:0 0 18px}.payment{display:grid;grid-template-columns:180px 1fr;column-gap:22px}.payment-qr+strong,.payment-qr+strong~p{grid-column:2}.payment-qr{grid-row:1 / span 4}@media(max-width:720px){.payment{display:block}.payment-qr{margin-bottom:18px}}
