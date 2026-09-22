@@ -25,6 +25,9 @@
 @media(max-width:720px){.help-options{grid-template-columns:1fr;gap:0}.help-card{display:block}.help-card .payment{display:block}.help-card .payment-qr{width:180px}}
 .header .phone{font-size:14px;line-height:1.25;white-space:normal;max-width:220px}
 @media(max-width:1000px){.header .phone{font-size:12px;max-width:150px}}
+.header .phone{align-self:center;transform:translateY(-2px)}
+.qr-caption{grid-column:1;display:block;max-width:220px;margin-top:-14px;font-size:11px;line-height:1.35;color:#cbd1be}
+@media(max-width:720px){.qr-caption{max-width:180px;margin-top:-10px;margin-bottom:18px}}
 /* Payment details span the full row below the three help options. */
 .help-options>.payment{grid-column:1 / -1;display:grid;grid-template-columns:220px minmax(0,1fr);gap:34px;margin-top:0;padding:28px 0;border:0;border-top:1px solid #78958b;background:transparent;align-items:start}
 .help-options>.payment .payment-qr{width:220px;height:220px;margin:0}
